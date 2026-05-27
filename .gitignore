@@ -1,0 +1,15 @@
+# Secrets
+esp32/src/secrets.h
+cabinet-backend/.env.local
+cabinet-app/.env.local
+
+# PlatformIO
+esp32/.pio/
+esp32/.vscode/
+
+# Expo / React Native
+cabinet-app/node_modules/
+cabinet-app/.expo/
+
+# Backend
+cabinet-backend/node_modules/
