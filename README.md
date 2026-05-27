@@ -62,17 +62,6 @@ cabinet/
 
 ---
 
-
-## Environment Variables
-
-Each part of the project requires its own config file. See the `.example` files in each folder for the required variables.
-
-| File | Location | Purpose |
-|------|----------|---------|
-| `secrets.h` | `esp32/src/` | WiFi credentials, server URL |
-| `.env.local` | `cabinet-backend/` | MongoDB connection string |
-| `.env.local` | `cabinet-app/` | Backend server URL |
-
 ---
 
 ## Built With
