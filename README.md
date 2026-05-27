@@ -62,42 +62,6 @@ cabinet/
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- [PlatformIO](https://platformio.org/) for ESP32 firmware
-- [Node.js](https://nodejs.org/) for the backend
-- [Expo Go](https://expo.dev/client) or a simulator for the mobile app
-
-### ESP32 Firmware
-
-1. Copy `esp32/src/secrets.h.example` to `esp32/src/secrets.h`
-2. Fill in your WiFi credentials and server IP
-3. Open the `esp32` folder in VS Code with PlatformIO and upload
-
-### Backend
-
-```bash
-cd cabinet-backend
-npm install
-cp .env.example .env.local
-# Fill in your MongoDB URI in .env.local
-node seed.js       # Optional: seed the recipe database
-node index.js      # Start the server
-```
-
-### Mobile App
-
-```bash
-cd cabinet-app
-npm install
-cp .env.example .env.local
-# Fill in your server IP in .env.local
-npx expo start
-```
-
----
 
 ## Environment Variables
 
