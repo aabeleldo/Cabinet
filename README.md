@@ -49,8 +49,6 @@ cabinet/
         └── recipes.tsx  # Recipe matching screen
 ```
 
----
-
 ## Features
 
 - Real-time container weight tracking via load cell
